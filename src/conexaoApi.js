@@ -10,5 +10,5 @@ export function createHash(timeStamp) {
     const myHash = timeStamp + privateKey + publicKey;
     const hashMessage = md5(myHash);
 
-    return hashMessage
+    return hashMessage;
 }
